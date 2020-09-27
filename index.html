@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Receita de Mousse de Maracuja</title>
+     <style>
+    /*seletor do tipo elemento*/
+
+body {
+    background-color: #F5F0DC;
+    font-family: Time New Roman, Helvetica, sans-serif; 
+    width: 940px;
+    margin: auto;
+}
+/*Criei um hack para o navegador google Chrome aceitar esse efeito.
+  background: -webkit-linear-gradient(top, #9C8F67, #C7BE9B 30%)
+*/
+
+
+
+h2{
+    background: -webkit-linear-gradient(top, #9C8F67, #C7BE9B 30%);
+    border-radius: 15px;
+    /*Coloca bordas de cantos arredondados*/
+    border: 1px solid black;
+    padding: 5px;
+    color: #fff; 
+                                                                                                     
+}
+#tb-nutrientes{
+  width: 60%;
+  margin-right:auto;
+  margin-left:auto;
+  border: 1px solid black;
+}
+#tb-nutrientes th{
+  background: #F8EA6B;
+  text-align: left;
+}
+
+/*Linhas impares*/
+#tb-nutrientes tr:nth-child(odd){
+  background-color:#fff;
+}
+
+
+/*Linhas pares*/
+#tb-nutrientes tr:nth-child(even){
+  background-color:#F8EAB3;
+}
+
+figure{
+  background-color: white;
+  width: 705px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 15px;
+  font-family:'Comic Sans MS', cursive;
+  border: 1px solid black;
+  /*box-shadow coloca sombreamento no elemento*/
+  box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.7);
+}
+
+figure:hover{
+  -webkit-transform:rotate(-5deg);
+}
+
+#banner{
+  top: 0;
+  right: 0;
+  position: fixed;
+  
+}
+
+nav>ul>li{
+  background-color: #C7BE9B;  
+  margin-bottom: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 5px;
+
+}
+
+nav>ul>li:hover{
+  background-color: #9C8F67;
+}
+
+nav>ul>li>a{
+  text-decoration: none; 
+  color: black;
+}
+
+nav>ul{
+  list-style: none;
+  padding-left: 0; 
+}
+
+/* Não precisa do float*/
+#conteudo{
+  width: 740px;
+  float: center; 
+  margin: auto ;
+}
+
+/* Se colocar esses codigos no 'body' o efeito sera o mesmo*/
+
+#titulo{
+    background: -webkit-linear-gradient(top, #9C8F67, #C7BE9B 30%);
+    border-radius: 15px;
+    padding-left: 0;
+    border: 1px solid black;
+    background-color: #83A742;  
+    padding: 5px;
+    color: #fff;
+}</style>
+</head>
+<body>
+
+    <section id="conteudo">
+
+        <img src="banner.png"  id="banner">
+        <h1 id="titulo">Receita - Mousse de Maracuja</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.tudogostoso.com.br/categorias/1079-bolo-de-iogurte">
+                    Bolo de iorgute
+                </a></li>
+
+                <li><a href="https://www.tudogostoso.com.br/categorias/1064-cupcake">
+                    Cupcake
+                </a></li>
+
+                <li><a href="https://www.tudogostoso.com.br/categorias/1067-bolo-de-chocolate">
+                    Bolo de chocolate
+                </a></li>
+
+                <li><a href="https://www.tudogostoso.com.br/categorias/1075-torta-alema">
+                    Torta alemâ
+                </a></li>
+            </ul>
+        </nav>
+        <br/>
+        <br/>
+        <section id="topo">
+            <figure>
+                <img src="moussemaracuja.jpg" width="450px" height="300px" />
+                <figcaption>Mousse de Maracuja</figcaption>
+            </figure>
+        </section>
+        <br/>
+        <br/>
+        <h2>Ingredientes</h2>
+        <ul>
+            <li>1 lata de leite condensado</li>
+            <li>1 lata de creme de leite</li>
+            <li>1 lata de suco de maracujá (aproximadamente 4 maracujas)</li>
+            <li>1 pacote de gelatina incolor</li>
+            <li>Sementes  de maracuja (para decoração)</li>
+        </ul>
+        <h2>Modo de Preparo</h2>
+        <ol>
+            <li>Hidrate a gelaina na água, edepois dissolva em banho-maria</li>
+            <li>Misture todos os ingredientes em um liquidificador (exceto as sementes de maracuja)</li>
+            <li>Bata os ingredientes no liquidificador, em potência maxíma, por 2 minutos</li>
+            <li>Coloque o mousse em um recipiente e decore-o com as sementes de maracujá</li>
+            <li>Coloque o mousse na geladeira, deixando em refrigeração por aproximadamene 4 horas</li>
+            <li>Devore!</li>   
+        </ol>
+        <h2>informação Nutricionais</h2>
+        <table id="tb-nutrientes">
+          <thead></thead>
+          <tbody>
+            <tr>
+              <th>Nutrientes</th>
+              <th>Porção(60g)</th>
+              <th>%VD</th>
+            </tr>
+            <tr>
+              <td>Valor Calórico(kcal)</td>
+              <td>225,37</td>
+              <td>9,01</td>
+            </tr>
+            <tr>
+              <td>Carboidratos</td>
+              <td>40,56</td>
+              <td>10,82</td>
+            </tr>
+            <tr>
+              <td>Proteínas(g)</td>
+              <td>5,97</td>
+              <td>8,53</td>
+            </tr>
+            <tr>
+              <td>Gorduras Totais(g)</td>
+              <td>4,36</td>
+              <td>5,45</td>
+            </tr>
+            <tr>
+              <td>Gorduras Saturadas(g)</td>
+              <td>2,71</td>
+              <td>10,83</td>
+            </tr>
+            <tr>
+              <td>Fibras Alimentares(g)</td>
+              <td>0,30</td>
+              <td>0,99</td>
+            </tr>
+            <tr>
+              <td>Cálcio(mg)</td>
+              <td>142,21</td>
+              <td>17,78</td>
+            </tr>
+            <tr>
+              <td>Sódio(mg)</td>
+              <td>91,60</td>
+              <td>3,82</td>
+            </tr>
+          </tbody>
+        </table>
+        <br/>
+        <br/>
+    </section>
+</body>
+</html>                               <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Receita de Mousse de Maracuja</title>
+     <style>
+    /*seletor do tipo elemento*/
+
+body {
+    background-color: #F5F0DC;
+    font-family: Time New Roman, Helvetica, sans-serif; 
+    width: 940px;
+    margin: auto;
+}
+/*Criei um hack para o navegador google Chrome aceitar esse efeito.
+  background: -webkit-linear-gradient(top, #9C8F67, #C7BE9B 30%)
+*/
+
+
+
+h2{
+    background: -webkit-linear-gradient(top, #9C8F67, #C7BE9B 30%);
+    border-radius: 15px;
+    /*Coloca bordas de cantos arredondados*/
+    border: 1px solid black;
+    padding: 5px;
+    color: #fff; 
+                                                                                                     
+}
+#tb-nutrientes{
+  width: 60%;
+  margin-right:auto;
+  margin-left:auto;
+  border: 1px solid black;
+}
+#tb-nutrientes th{
+  background: #F8EA6B;
+  text-align: left;
+}
+
+/*Linhas impares*/
+#tb-nutrientes tr:nth-child(odd){
+  background-color:#fff;
+}
+
+
+/*Linhas pares*/
+#tb-nutrientes tr:nth-child(even){
+  background-color:#F8EAB3;
+}
+
+figure{
+  background-color: white;
+  width: 705px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 15px;
+  font-family:'Comic Sans MS', cursive;
+  border: 1px solid black;
+  /*box-shadow coloca sombreamento no elemento*/
+  box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.7);
+}
+
+figure:hover{
+  -webkit-transform:rotate(-5deg);
+}
+
+#banner{
+  top: 0;
+  right: 0;
+  position: fixed;
+  
+}
+
+nav>ul>li{
+  background-color: #C7BE9B;  
+  margin-bottom: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 5px;
+
+}
+
+nav>ul>li:hover{
+  background-color: #9C8F67;
+}
+
+nav>ul>li>a{
+  text-decoration: none; 
+  color: black;
+}
+
+nav>ul{
+  list-style: none;
+  padding-left: 0; 
+}
+
+/* Não precisa do float*/
+#conteudo{
+  width: 740px;
+  float: center; 
+  margin: auto ;
+}
+
+/* Se colocar esses codigos no 'body' o efeito sera o mesmo*/
+
+#titulo{
+    background: -webkit-linear-gradient(top, #9C8F67, #C7BE9B 30%);
+    border-radius: 15px;
+    padding-left: 0;
+    border: 1px solid black;
+    background-color: #83A742;  
+    padding: 5px;
+    color: #fff;
+}</style>
+</head>
+<body>
+
+    <section id="conteudo">
+
+        <img src="banner.png"  id="banner">
+        <h1 id="titulo">Receita - Mousse de Maracuja</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.tudogostoso.com.br/categorias/1079-bolo-de-iogurte">
+                    Bolo de iorgute
+                </a></li>
+
+                <li><a href="https://www.tudogostoso.com.br/categorias/1064-cupcake">
+                    Cupcake
+                </a></li>
+
+                <li><a href="https://www.tudogostoso.com.br/categorias/1067-bolo-de-chocolate">
+                    Bolo de chocolate
+                </a></li>
+
+                <li><a href="https://www.tudogostoso.com.br/categorias/1075-torta-alema">
+                    Torta alemâ
+                </a></li>
+            </ul>
+        </nav>
+        <br/>
+        <br/>
+        <section id="topo">
+            <figure>
+                <img src="moussemaracuja.jpg" width="450px" height="300px" />
+                <figcaption>Mousse de Maracuja</figcaption>
+            </figure>
+        </section>
+        <br/>
+        <br/>
+        <h2>Ingredientes</h2>
+        <ul>
+            <li>1 lata de leite condensado</li>
+            <li>1 lata de creme de leite</li>
+            <li>1 lata de suco de maracujá (aproximadamente 4 maracujas)</li>
+            <li>1 pacote de gelatina incolor</li>
+            <li>Sementes  de maracuja (para decoração)</li>
+        </ul>
+        <h2>Modo de Preparo</h2>
+        <ol>
+            <li>Hidrate a gelaina na água, edepois dissolva em banho-maria</li>
+            <li>Misture todos os ingredientes em um liquidificador (exceto as sementes de maracuja)</li>
+            <li>Bata os ingredientes no liquidificador, em potência maxíma, por 2 minutos</li>
+            <li>Coloque o mousse em um recipiente e decore-o com as sementes de maracujá</li>
+            <li>Coloque o mousse na geladeira, deixando em refrigeração por aproximadamene 4 horas</li>
+            <li>Devore!</li>   
+        </ol>
+        <h2>informação Nutricionais</h2>
+        <table id="tb-nutrientes">
+          <thead></thead>
+          <tbody>
+            <tr>
+              <th>Nutrientes</th>
+              <th>Porção(60g)</th>
+              <th>%VD</th>
+            </tr>
+            <tr>
+              <td>Valor Calórico(kcal)</td>
+              <td>225,37</td>
+              <td>9,01</td>
+            </tr>
+            <tr>
+              <td>Carboidratos</td>
+              <td>40,56</td>
+              <td>10,82</td>
+            </tr>
+            <tr>
+              <td>Proteínas(g)</td>
+              <td>5,97</td>
+              <td>8,53</td>
+            </tr>
+            <tr>
+              <td>Gorduras Totais(g)</td>
+              <td>4,36</td>
+              <td>5,45</td>
+            </tr>
+            <tr>
+              <td>Gorduras Saturadas(g)</td>
+              <td>2,71</td>
+              <td>10,83</td>
+            </tr>
+            <tr>
+              <td>Fibras Alimentares(g)</td>
+              <td>0,30</td>
+              <td>0,99</td>
+            </tr>
+            <tr>
+              <td>Cálcio(mg)</td>
+              <td>142,21</td>
+              <td>17,78</td>
+            </tr>
+            <tr>
+              <td>Sódio(mg)</td>
+              <td>91,60</td>
+              <td>3,82</td>
+            </tr>
+          </tbody>
+        </table>
+        <br/>
+        <br/>
+    </section>
+</body>
+</html>                               
