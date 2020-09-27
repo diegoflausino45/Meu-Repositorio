@@ -1,0 +1,111 @@
+
+/*seletor do tipo elemento*/
+
+body {
+background-color: #F5F0DC;
+font-family: Time New Roman, Helvetica, sans-serif; 
+width: 940px;
+margin: auto;
+}
+/*Criei um hack para o navegador google Chrome aceitar esse efeito.
+background: -webkit-linear-gradient(top, #9C8F67, #C7BE9B 30%)
+*/
+
+
+
+h2{
+background: -webkit-linear-gradient(top, #9C8F67, #C7BE9B 30%);
+border-radius: 15px;
+/*Coloca bordas de cantos arredondados*/
+border: 1px solid black;
+padding: 5px;
+color: #fff; 
+                                                                                                 
+}
+#tb-nutrientes{
+width: 60%;
+margin-right:auto;
+margin-left:auto;
+border: 1px solid black;
+}
+#tb-nutrientes th{
+background: #F8EA6B;
+text-align: left;
+}
+
+/*Linhas impares*/
+#tb-nutrientes tr:nth-child(odd){
+background-color:#fff;
+}
+
+
+/*Linhas pares*/
+#tb-nutrientes tr:nth-child(even){
+background-color:#F8EAB3;
+}
+
+figure{
+background-color: white;
+width: 705px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+padding: 15px;
+font-family:'Comic Sans MS', cursive;
+border: 1px solid black;
+/*box-shadow coloca sombreamento no elemento*/
+box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.7);
+}
+
+figure:hover{
+-webkit-transform:rotate(-5deg);
+}
+
+#banner{
+top: 0;
+right: 0;
+position: fixed;
+
+}
+
+nav>ul>li{
+background-color: #C7BE9B;  
+margin-bottom: 5px;
+border: 1px solid black;
+border-radius: 5px;
+padding-left: 5px;
+
+}
+
+nav>ul>li:hover{
+background-color: #9C8F67;
+}
+
+nav>ul>li>a{
+text-decoration: none; 
+color: black;
+}
+
+nav>ul{
+list-style: none;
+padding-left: 0; 
+}
+
+/* Não precisa do float*/
+#conteudo{
+width: 740px;
+float: center; 
+margin: auto ;
+}
+
+/* Se colocar esses codigos no 'body' o efeito sera o mesmo*/
+
+#titulo{
+background: -webkit-linear-gradient(top, #9C8F67, #C7BE9B 30%);
+border-radius: 15px;
+padding-left: 0;
+border: 1px solid black;
+background-color: #83A742;  
+padding: 5px;
+color: #fff;
+}
